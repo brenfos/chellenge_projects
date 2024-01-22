@@ -1,0 +1,19 @@
+.projectList {
+  background: #ffffff;
+  color: #000000;
+  margin-left: 5%;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+
+@media (max-width: 768px) {
+  .projectList {
+      margin: 10px;
+  }
+}

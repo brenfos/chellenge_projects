@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Project 1",
+        "description": "Description for project 1",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "In Progress"
+    },
+    {
+        "name": "Project 2",
+        "description": "Description for project 2",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "In Progress"
+    },
+    {
+        "name": "Project 3",
+        "description": "Description for project 3",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "In Progress"
+    }
+]
