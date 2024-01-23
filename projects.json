@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Landing Page",
+        "description": "Description",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "Enabled"
+    },
+    {
+        "id": 2,
+        "name": "E-commerce Shop",
+        "description": "Description",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "Enabled"
+    },
+    {   "id": 3,
+        "name": "CRM Linkroom",
+        "description": "Description",
+        "projectManager": "Walt Cosani",
+        "assignedTo": "Ignacio Truffa",
+        "status": "Enabled"
+    }
+]

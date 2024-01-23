@@ -1,19 +1,40 @@
-.projectList {
-  background: #ffffff;
-  color: #000000;
-  margin-left: 5%;
+.projectListContainer {
+  width: 100%;
+  overflow-x: auto; 
+  max-width: 100%;
+  margin: auto; 
 }
 
-.projectHeader {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #f0f0f0;
+.projectTable {
+   min-width: 600px; 
+   border-collapse: collapse;
 }
 
+.projectTable th {
+  background-color: #f4f4f4;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.projectTable td, .projectTable th {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projectTable tr:hover {
+  background-color: #f4f4f4;
+}
 
 @media (max-width: 768px) {
-  .projectList {
-      margin: 10px;
+  .projectListContainer {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .projectTable {
+    width: 100%;
   }
 }
